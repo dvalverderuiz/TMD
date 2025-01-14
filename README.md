@@ -5,8 +5,8 @@ Monitorización y Gestión de Dispositivos de Red
 
 Descripción: Crear un sistema web para monitorizar el estado y rendimiento de los dispositivos en una red.
 
-Funciones:
-  Dashboard para visualizar:
+Funciones:<br>
+  Dashboard para visualizar:<br>
     - Uso de CPU y memoria de dispositivos (routers, switches).<br>
     - Ancho de banda usado por los clientes.<br>
     - Dispositivos conectados a través de DHCP.<br>
