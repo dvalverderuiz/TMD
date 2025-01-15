@@ -1,9 +1,19 @@
 # TMD 
 
+## 💡  Explicación de la idea del proyecto
+<details>
+  <summary>Explicación 🔽</summary>
 Monitorización y Gestión de Dispositivos de Red
 
+Este proyecto desarrolla una **aplicación web** destinada al **análisis de redes** y la **gestión de dispositivos** en infraestructuras empresariales. La plataforma ofrece un **dashboard interactivo** que permite monitorizar en tiempo real el **uso de CPU y memoria** de dispositivos de red como routers y switches, así como el **ancho de banda consumido** por los clientes y la identificación de **dispositivos conectados** mediante DHCP. Además, facilita la **configuración remota** de servidores DHCP y DNS, y la **gestión automatizada de reglas de firewall** a través de scripts personalizados.
 
-Descripción: Crear un sistema web para monitorizar el estado y rendimiento de los dispositivos en una red.
+Para la recopilación de datos, se emplean protocolos como **SNMP** o **Netconf**. El procesamiento y la interacción con los dispositivos se realizan utilizando **PHP** y **Python**, mientras que la visualización de métricas se implementa con **Grafana** o **Chart.js**. La interfaz web está servida por **Nginx**, y el almacenamiento de datos se gestiona mediante una base de datos **MySQL**.
+
+Esta solución centraliza y optimiza la **monitorización** y **administración de redes**, mejorando la **eficiencia operativa** y reforzando la **seguridad** en entornos corporativos.
+
+**Palabras clave**: análisis de red, gestión de dispositivos, monitorización, SNMP, Netconf, automatización de firewall, PHP, Python, Grafana, Chart.js, Nginx, MySQL. 
+
+</details>
 
 Funciones:<br>
   Dashboard para visualizar:<br>
