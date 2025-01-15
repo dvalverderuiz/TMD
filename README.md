@@ -10,7 +10,9 @@ Este proyecto desarrolla una **aplicación web** destinada al **análisis de red
 Para la recopilación de datos, se emplean protocolos como **SNMP** o **Netconf**. El procesamiento y la interacción con los dispositivos se realizan utilizando **PHP** y **Python**, mientras que la visualización de métricas se implementa con **Grafana** o **Chart.js**. La interfaz web está servida por **Nginx**, y el almacenamiento de datos se gestiona mediante una base de datos **MySQL**.
 
 Esta solución centraliza y optimiza la **monitorización** y **administración de redes**, mejorando la **eficiencia operativa** y reforzando la **seguridad** en entornos corporativos.
+</details>
 
+<details>
 Funciones:
   Dashboard para visualizar:
     - Uso de CPU y memoria de dispositivos (routers, switches).
@@ -18,6 +20,8 @@ Funciones:
     - Dispositivos conectados a través de DHCP.
     - Configuración básica remota de servidores DHCP y DNS.
     - Gestión de reglas de firewall mediante scripts automatizados.
+</details>
+<details>
     
 **Palabras clave**: análisis de red, gestión de dispositivos, monitorización, SNMP, Netconf, automatización de firewall, PHP, Python, Grafana, Chart.js, Nginx, MySQL. 
 
