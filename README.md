@@ -1,4 +1,4 @@
-# TMD 
+# ASIX2_Monitorización y Gestión de Dispositivos de Red_TMD <br> Desarrolladores: Miquel Burguera, Tim Kalugin, David Valverde
 
 ## 💡  Explicación de la idea del proyecto
 <details>
