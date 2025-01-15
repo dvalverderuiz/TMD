@@ -11,18 +11,17 @@ Para la recopilación de datos, se emplean protocolos como **SNMP** o **Netconf*
 
 Esta solución centraliza y optimiza la **monitorización** y **administración de redes**, mejorando la **eficiencia operativa** y reforzando la **seguridad** en entornos corporativos.
 
+Funciones:
+  Dashboard para visualizar:
+    - Uso de CPU y memoria de dispositivos (routers, switches).
+    - Ancho de banda usado por los clientes.
+    - Dispositivos conectados a través de DHCP.
+    - Configuración básica remota de servidores DHCP y DNS.
+    - Gestión de reglas de firewall mediante scripts automatizados.
+    
 **Palabras clave**: análisis de red, gestión de dispositivos, monitorización, SNMP, Netconf, automatización de firewall, PHP, Python, Grafana, Chart.js, Nginx, MySQL. 
 
 </details>
-
-
-Funciones:<br>
-  Dashboard para visualizar:<br>
-    - Uso de CPU y memoria de dispositivos (routers, switches).<br>
-    - Ancho de banda usado por los clientes.<br>
-    - Dispositivos conectados a través de DHCP.<br>
-    - Configuración básica remota de servidores DHCP y DNS.<br>
-    - Gestión de reglas de firewall mediante scripts automatizados.<br>
 
 ## 💻  Tecnologías a utilizar (lenguajes, framework, sistemas, software...)
 <details>
