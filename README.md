@@ -16,11 +16,12 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 
 <details>
 <summary>Funcionalidades 🔽</summary>
-    - Uso de CPU y memoria de dispositivos (routers, switches).
-    - Ancho de banda usado por los clientes.
-    - Dispositivos conectados a través de DHCP.
-    - Configuración básica remota de servidores DHCP y DNS.
-    - Gestión de reglas de firewall mediante scripts automatizados.
+  
+  - Uso de CPU y memoria de dispositivos (routers, switches).
+  - Ancho de banda usado por los clientes.
+  - Dispositivos conectados a través de DHCP.
+  - Configuración básica remota de servidores DHCP y DNS.
+  - Gestión de reglas de firewall mediante scripts automatizados.
 </details>
 
 ## 💻  Tecnologías a utilizar (lenguajes, framework, sistemas, software...)
