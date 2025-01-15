@@ -18,3 +18,6 @@ Tecnologías involucradas:
   - PHP + Python para procesamiento y conexión con dispositivos.
   - Grafana o Chart.js para visualización.
   - Nginx y MySQL para la interfaz web.
+
+
+![image](https://github.com/user-attachments/assets/f267646b-97b2-499a-8770-e1064f8b3263)
