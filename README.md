@@ -15,6 +15,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 
 </details>
 
+
 Funciones:<br>
   Dashboard para visualizar:<br>
     - Uso de CPU y memoria de dispositivos (routers, switches).<br>
@@ -23,11 +24,28 @@ Funciones:<br>
     - Configuración básica remota de servidores DHCP y DNS.<br>
     - Gestión de reglas de firewall mediante scripts automatizados.<br>
 
-Tecnologías involucradas:
-  - SNMP o Netconf para recolectar datos de los dispositivos.
-  - PHP + Python para procesamiento y conexión con dispositivos.
-  - Grafana o Chart.js para visualización.
-  - Nginx y MySQL para la interfaz web.
+## 💻  Tecnologías a utilizar (lenguajes, framework, sistemas, software...)
+<details>
+  <summary>Front-end 🔽</summary>
+
+  - HTML
+  - CSS
+  - Bootstrap
+  - Colores a utilizar en el front-end: pendientes a elegir
+</details>
+
+<details>
+  <summary>Back-end 🔽</summary>
+
+   - Python 
+   - PHP
+</details>
+
+<details>
+  <summary>Base de Datos 🔽</summary>
+  
+  - MySql
+</details>
 
 
 ![image](https://github.com/user-attachments/assets/f267646b-97b2-499a-8770-e1064f8b3263)
