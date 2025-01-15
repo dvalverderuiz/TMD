@@ -47,5 +47,22 @@ Funciones:<br>
   - MySql
 </details>
 
+<details>
+  <summary>Framework 🔽</summary>
+  
+  - API de Python con flask
+</details>
+
+<details>
+  <summary>Software 🔽</summary>
+  
+  - Visual Studio
+  - Trello
+  - GitHub
+  - Cloudflare
+  - Pi-hole
+  - Nginx
+  - Grafana
+</details>
 
 ![image](https://github.com/user-attachments/assets/f267646b-97b2-499a-8770-e1064f8b3263)
