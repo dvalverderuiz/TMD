@@ -1,0 +1,8 @@
+--------
+Aplicación desplegable desde contenedor Docker
+--------
+
+Sistema de monitoreo de red interna desplegable con contenedores Docker en servidor.
+Visualización de datos en página web local alojada en servidor web (nginx) montado y levantado desde docker-compose.yml (1 único despliege)
+
+--------
