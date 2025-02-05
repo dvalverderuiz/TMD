@@ -77,7 +77,8 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
   - Docker: utiliza el sistema operativo del sistema anfitrión, solo un contenedor para un servicio, es más ligero y modular, se basa en capas de solo lectura mediante AUFS o DeviceMapper, sus instancias son efímeras, y los datos persistentes deben almacenarse en bind mounts o volúmenes de datos.
 
 ¿Cuál es la diferencia entre una imagen y un contenedor en docker?
-  - Imagen: 
+  - Imagen: una imagen es una plantilla fija que contiene el sistema de archivos y la configuración necesarios para ejecutar una aplicación. Si se necesita realizar cambios, hay que 
+
 </details>
 
 
