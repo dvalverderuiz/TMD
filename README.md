@@ -82,6 +82,13 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
   - Imagen: una imagen es una plantilla fija que contiene el sistema de archivos y la configuración necesarios para ejecutar una aplicación. Si se necesita realizar cambios, hay que crear una nueva imagen a partir del contenedor creado a partir de la imagen inicial.  
   - Contenedor: un contenedor es una instancia de ejecución de una imagen, aunque la imagen contenga todo lo necesario para ejecutar una aplicación no podrá ser ejecutada sin un contenedor. El contenedor es modificable pero, los cambios que se implementan no afectan a la imagen base. Un contenedor puede ser eliminado o detenido sin afectar la imagen. 
 
+¿Qué sucede con los datos cuando un contenedor se elimina?
+  -  Cuando un contenedor es eliminado todos los datos no persistentes se borran si no se usan volúmenes o bind mounts.
+  -  Volúmenes:  se almacenan fuera del sistema de archivos del contenedor y pueden ser reutilizados por otros contenedores.
+  -  Bind Mounts: permite acceder y modificar archivos dentro y fuera del contenedor. 
+
+¿Cuáles son las ventajas de utilizar contenedores de docker?
+  - 
 </details>
 
 
