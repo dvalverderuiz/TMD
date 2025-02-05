@@ -65,6 +65,8 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
   - Grafana
 </details>
 
+![image](https://github.com/user-attachments/assets/f267646b-97b2-499a-8770-e1064f8b3263)
+
 ## :whale:  Docker
 <details>
   <summary>Información básica 🔽</summary>
@@ -83,9 +85,5 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 
 
 
-
-
-
-![image](https://github.com/user-attachments/assets/f267646b-97b2-499a-8770-e1064f8b3263)
 
 
