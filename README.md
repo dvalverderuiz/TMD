@@ -67,7 +67,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 
 ## :whale:  Docker
 <details>
-  <summary>Teoría 🔽</summary>
+  <summary>Información básica 🔽</summary>
 
 ¿Qué son los contenedores de docker?
   - La función principal de los contenedores Docker es desarrollar, enviar y ejecutar cualquier aplicación en cualquier sistema, constituyéndose así como una alternativa flexible y capaz de ahorrar recursos frente a la emulación de componentes de hardware basada en máquinas virtuales (VM).
