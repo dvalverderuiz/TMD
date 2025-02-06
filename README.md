@@ -100,7 +100,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 <details>
   <summary>Despliegue de aplicación web 🔽</summary>
   - Para el despliegue de la aplicación web almacenada en Windows hacemos lo siguente, si los archivos no están compromidos no nos saldrá bien, así que, comprimimos en un .zip todos los archivos. Con el comando **scp nombre_archivo.zip usuario@ip:.** copiamos todo el contenido a máquina virtual. Luego definimos una estructura de carpetas y subcarpetas de forma jerárquica. Creamos una carpeta general con el nombre de nuestro proyecto, dentro creamos 4 carpetas más (nginx, web, mysql y sql) + un archivo de configuración de docker compose (docker-compose.yml). Dentro del archivo docker-compose quitamos la línea comentada y cambiamos una linea de configuración de (- ‘./db:/db’) a (- ‘./sql:/db’). Finalmente añadimos el archivo de configuración **default.conf** dentro de la carpeta de nginx. 
-<b>Todo el contenido de los archivos a configurar se puede encontrar en la webgrafía</b>
+>Todo el contenido de los archivos a configurar se puede encontrar en la webgrafía
 
 Webgrafía [Punkymo](https://punkymo.gitbook.io/miwiki/virtualizacion/contenedores/docker/docker-compose/importar-sitio-web-en-docker)
 
