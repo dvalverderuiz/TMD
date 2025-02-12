@@ -24,13 +24,24 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
   - Gestión de reglas de firewall mediante scripts automatizados.
 </details>
 
+## 📝  Organización y roles del equipo
+<details>
+  <summary>Organización 🔽</summary>
+
+  Hemos decidido respetar los intereses y las ganas de trabajar sobre uno u otro aspecto de nuestro proyecto, de esta manera todos aprendemos más sobre los ámbitos en los cuales pensamos enfocarnos como futura carrera. Aún así, siempre se respeta la ayuda a cada uno de los integrantes del equipo en caso de no llegar a los objetivos en los mágrenes de tiempo preestablecidos. 
+  
+  Al final de cada clase se pondrá en común el trabajo de cada integrante, con el objetivo de que todas las personas en todo momento sepan que se ha hecho ese día y si algún día hay una baja, que se pueda seguir trabajando con normalidad.
+
+</details>
+
 <details>
   <summary>Roles 🔽</summary> 
   
-  - David - Programación, escritos (GitHub)
-  - Miquel - Sistemas, Redes, escritos (GitHub)
-  - Tim - Sistemas, Redes, escritos (GitHub)
+  - David - Programación, documetación (GitHub)
+  - Miquel - Sistemas, Redes, documentación (GitHub)
+  - Tim - Sistemas, Redes, documentación (GitHub)
 </details>
+
 ## 💻  Tecnologías a utilizar (lenguajes, framework, sistemas, software...)
 <details>
   <summary>Front-end 🔽</summary>
