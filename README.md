@@ -28,7 +28,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 <details>
   <summary>Organización 🔽</summary>
 
-  Hemos decidido respetar los intereses y las ganas de trabajar sobre uno u otro aspecto de nuestro proyecto, de esta manera todos aprendemos más sobre los ámbitos en los cuales pensamos enfocarnos como futura carrera. Aún así, siempre se respeta la ayuda a cada uno de los integrantes del equipo en caso de no llegar a los objetivos en los mágrenes de tiempo preestablecidos. 
+  Hemos decidido respetar los intereses y la motivación de cada miembro del equipo en cuanto a los aspectos de nuestro proyecto en los que desean trabajar. De este modo, todos podemos aprender más sobre las áreas en las que consideramos que podemos enfocarnos como futuras carreras profesionales. No obstante, siempre se garantiza la colaboración y el apoyo entre los integrantes del equipo en caso de no cumplir con los objetivos dentro de los plazos establecidos. 
   
   Al final de cada clase se pondrá en común el trabajo de cada integrante, con el objetivo de que todas las personas en todo momento sepan que se ha hecho ese día y si algún día hay una baja, que se pueda seguir trabajando con normalidad.
 
