@@ -24,6 +24,13 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
   - Gestión de reglas de firewall mediante scripts automatizados.
 </details>
 
+<details>
+  <summary>Roles 🔽</summary> 
+  
+  - David - Programación, escritos (GitHub)
+  - Miquel - Sistemas, Redes, escritos (GitHub)
+  - Tim - Sistemas, Redes, escritos (GitHub)
+</details>
 ## 💻  Tecnologías a utilizar (lenguajes, framework, sistemas, software...)
 <details>
   <summary>Front-end 🔽</summary>
