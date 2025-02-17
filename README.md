@@ -86,7 +86,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 
   <summary>Esquema 🔽</summary>
 
-![Esquemaredmain](img/Arquitectura(red principal).png)
+![Esquemaredmain](img/Arquitectura_red_principal.png)
   
 </details>
 ## :whale:  Docker
