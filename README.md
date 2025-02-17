@@ -96,7 +96,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 <details>
   <summary>Introducción 🔽</summary>
 
-En este proyecto vamos a implementar Docker, una plataforma de contenedorización que permite crear, desplegar y ejecutar aplicaciones en contenedores. Distingue por su portabilidad y consistencia, esto significa que nos permite trabajar desde cualquier sitio desplegando la misma imagen en otro servidor, nube, etc. Además nos proporciona un aislamiento de los servicios, en caso de tener algún fallo en un contenedor, el servicio afectado será únicamente el que se almacenaba dentro de este contenedor. Por último, los contenedores docker comparten el mismo sistema operativo kernel lo que permite reducir la cantidad de RAM, CPU y memória física utilizada y optimizar el tiempo del arranque, desarrollo y apague de los servicios.   
+En este proyecto vamos a implementar Docker, una plataforma de contenedorización que permite crear, desplegar y ejecutar aplicaciones en contenedores. Distingue por su portabilidad y consistencia, esto significa que nos permite trabajar desde cualquier sitio desplegando la misma imagen en otro servidor, nube, etc. Además nos proporciona un aislamiento de los servicios, en caso de tener algún fallo en un contenedor, el servicio afectado será únicamente el que se almacenaba dentro de este contenedor. Por último, los contenedores docker comparten el mismo kernel del sistema operativo, lo que permite reducir el consumo de RAM, CPU y memória física, optimizando el tiempo del arranque, desarrollo y apague de los servicios.   
 
 </details>
 
