@@ -83,12 +83,15 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 <details>
   <summary>Explicación 🔽</summary>
 
+</details>
 
+<details>
   <summary>Esquema 🔽</summary>
 
 ![Esquemaredmain](img/Arquitectura_red_principal.png)
   
 </details>
+
 ## :whale:  Docker
 <details>
   <summary>Información básica 🔽</summary>
