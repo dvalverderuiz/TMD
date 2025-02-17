@@ -128,17 +128,18 @@ En este proyecto vamos a implementar Docker, una plataforma de contenedorizació
 ¿Qué otros tipos de contenedores existen además de Docker?
   - A parte de contenedores LXC y Docker existen otros contenedores para unos u otros propósitos: Podman (alternativa a Docker, utiliza los mismos comandos y no necesita un daemon en segundo plano), CRI-O (más optimizado para Kubernetes), Singularity (usado en entornos científicos), Kata Containers (combina virtualización ligera con seguridad similar de las VMs), Firecracker (contenedores livianos, elaborados por Amazon).
 
-**Webgrafía** [Dockerdocs](https://docs.docker.com/) [DockervsLXC](https://www.upguard.com/blog/docker-vs-lxc)
+**Webgrafía** [Dockerdocs](https://docs.docker.com/) [DockervsLXC](https://www.upguard.com/blog/docker-vs-lxc) [Codeandcoke](https://despliegue.codeandcoke.com/apuntes:docker)
  
 </details>
 
 <details>
   <summary>Despliegue de aplicación web 🔽</summary>
+
+Para el despliegue de la aplicación web almacenada en Windows hacemos lo siguente:
+  - Si los archivos no están comprimidos no nos saldrá bien, así que, comprimimos en un .zip todos los archivos. Con el comando **scp nombre_archivo.zip usuario@ip:.** copiamos todo el contenido a máquina virtual. Luego definimos una estructura de carpetas y subcarpetas de forma jerárquica. Creamos una carpeta general con el nombre de nuestro proyecto, dentro creamos 4 carpetas más (nginx, web, mysql y sql) + un archivo de configuración de docker compose **docker-compose.yml**. Dentro del archivo docker-compose quitamos la línea comentada y cambiamos una linea de configuración de (- ‘./db:/db’) a (- ‘./sql:/db’). Finalmente añadimos el archivo de configuración **default.conf** dentro de la carpeta de nginx. Solo queda distribuir el contenido dentro de cada carpeta a gusto de cada uno.
   
-  - Para el despliegue de la aplicación web almacenada en Windows hacemos lo siguente, si los archivos no están compromidos no nos saldrá bien, así que, comprimimos en un .zip todos los archivos. Con el comando **scp nombre_archivo.zip usuario@ip:.** copiamos todo el contenido a máquina virtual. Luego definimos una estructura de carpetas y subcarpetas de forma jerárquica. Creamos una carpeta general con el nombre de nuestro proyecto, dentro creamos 4 carpetas más (nginx, web, mysql y sql) + un archivo de configuración de docker compose **docker-compose.yml**. Dentro del archivo docker-compose quitamos la línea comentada y cambiamos una linea de configuración de (- ‘./db:/db’) a (- ‘./sql:/db’). Finalmente añadimos el archivo de configuración **default.conf** dentro de la carpeta de nginx. Solo queda distribuir el contenido dentro de cada carpeta a gusto de cada uno.
   
-  
-**Webgrafía** 
+**Webgrafía** [Adictosaltrabajo](https://adictosaltrabajo.com/2022/12/19/despliegue-de-aplicaciones-con-docker-compose/) 
 
 </details>
 
