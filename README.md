@@ -121,7 +121,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 ¿Qué otros tipos de contenedores existen además de Docker?
   - A parte de contenedores LXC y Docker existen otros contenedores para unos u otros propósitos: Podman (alternativa a Docker, utiliza los mismos comandos y no necesita un daemon en segundo plano), CRI-O (más optimizado para Kubernetes), Singularity (usado en entornos científicos), Kata Containers (combina virtualización ligera con seguridad similar de las VMs), Firecracker (contenedores livianos, elaborados por Amazon).
 
-**Webgrafía** [Dockerdocs](https://docs.docker.com/) [Punkymo](https://punkymo.gitbook.io/miwiki/virtualizacion/contenedores/docker) [DockervsLXC](https://www.upguard.com/blog/docker-vs-lxc)
+**Webgrafía** [Dockerdocs](https://docs.docker.com/) [DockervsLXC](https://www.upguard.com/blog/docker-vs-lxc)
  
 </details>
 
@@ -132,7 +132,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
   
   - Todo el contenido de los archivos a configurar se puede encontrar en la webgrafía
   
-**Webgrafía** [Punkymo](https://punkymo.gitbook.io/miwiki/virtualizacion/contenedores/docker/docker-compose/importar-sitio-web-en-docker)
+**Webgrafía** 
 
 </details>
 
