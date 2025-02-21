@@ -86,6 +86,17 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 </details>
 
 <details>
+  <summary>Tabla de arquitectura de los sistemas (red principal) 🔽</summary>
+  
+  | Máquina       | S.O                  | Almacenamiento / Memoria|    Servicio    | 
+  |---------------|----------------------|-------------------------|----------------|
+  | **Proxmox**   |Proxmox-VE 8.2.2      | 93Gb / 8Gb              |   Hypervisor   |
+  | **PfSense**   |FreeBSD 1.0.0         | 25Gb / 4Gb              |  DHCP+Firewall |
+  | **Backup**    |Ubuntu server 22.04.2 | 20Gb / 4Gb              |     Backup     |
+  | **Docker**    |Debian 12.7.0         | 14Gb / 512Mb            |     Hosting    |
+</details>
+
+<details>
   <summary>Esquema provisional 🔽</summary>
 
 ![Esquemaredmain](img/Arquitectura_red_principal.png)
