@@ -99,7 +99,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 <details>
   <summary>Esquema provisional 🔽</summary>
 
-![Esquemaredmain](img/Arquitectura_red_principal.png)
+![Esquemaredmain](img/Arquitecturared.png)
   
 </details>
 
