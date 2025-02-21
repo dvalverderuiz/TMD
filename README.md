@@ -93,7 +93,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
   | **Proxmox**   |Proxmox-VE 8.2.2      | 93Gb / 8Gb              |   Hypervisor   |
   | **PfSense**   |FreeBSD 1.0.0         | 25Gb / 4Gb              |  DHCP+Firewall |
   | **Backup**    |Ubuntu server 22.04.2 | 20Gb / 4Gb              |     Backup     |
-  | **Docker**    |Debian 12.7.0         | 14Gb / 512Mb            |     Hosting    |
+  | **Docker**    |Ubuntu server 22.04.2 | 20Gb / 2Gb              |     Hosting    |
 </details>
 
 <details>
