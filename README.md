@@ -83,6 +83,16 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 <details>
   <summary>Explicación 🔽</summary>
 
+Esta red está diseñada bajo una arquitectura cliente-servidor con varios niveles de segmentación para mejorar la seguridad y la eficiencia en la gestión de servicios.
+
+Infraestructura General
+La infraestructura está basada en un hipervisor Proxmox VE 8.2.2, que aloja varias máquinas virtuales y contenedores para proporcionar diferentes servicios.
+
+Componentes y Funcionalidad
+PfSense (Firewall + DHCP): Controla el tráfico de red y asigna direcciones IP dinámicamente.
+Servidor de Backup (Ubuntu Server 22.04.2): Se encarga del almacenamiento y la recuperación de datos.
+Ubuntu (Docker): Aloja los contenedores.
+Cloudflare: Ofrece seguridad adicional y optimización del tráfico web a través de un túnel.
 </details>
 
 <details>
