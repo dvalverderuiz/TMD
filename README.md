@@ -156,9 +156,21 @@ En este proyecto vamos a implementar Docker, una plataforma de contenedorizació
 <details>
   <summary>Despliegue de aplicación web 🔽</summary>
 
-Para el despliegue de la aplicación web almacenada en Windows hacemos lo siguente:
+Para el despliegue de la aplicación web vamos a utilizar una herramienta de orquestación de los contenedores dentro del mismo cliente, *docker-compose*. Vamos a centrarnos en un archivo en específico, ```docker-compose.yml``` dentro del cuál definiremos los contenedores que se van a desplegar y que dependencias van a tener entre ellos. 
+
+Para descargar *docker-compose* necesitamos tener instalada la herramienta de Docker en sistema que vamos a trabajar.
+
   - Si los archivos no están comprimidos no nos saldrá bien, así que, comprimimos en un .zip todos los archivos. Con el comando **scp nombre_archivo.zip usuario@ip:.** copiamos todo el contenido a máquina virtual. Luego definimos una estructura de carpetas y subcarpetas de forma jerárquica. Creamos una carpeta general con el nombre de nuestro proyecto, dentro creamos 4 carpetas más (nginx, web, mysql y sql) + un archivo de configuración de docker compose **docker-compose.yml**. Dentro del archivo docker-compose quitamos la línea comentada y cambiamos una linea de configuración de (- ‘./db:/db’) a (- ‘./sql:/db’). Finalmente añadimos el archivo de configuración **default.conf** dentro de la carpeta de nginx. Solo queda distribuir el contenido dentro de cada carpeta a gusto de cada uno.
-  
+ 
+
+```
+# comandos usados
+
+sudo apt install docker-compose                        # instalación del servicio
+sudo cp /etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf.BKP   # creación de la copia de archivo
+sudo nano /etc/dhcp/dhcpd.conf                          # modificación del archivo de configuración
+sudo nano /etc/default/isc-dhcp-server                  # modificación del archivo de asiganción de interfaz
+```
   
 **Webgrafía** [Adictosaltrabajo](https://adictosaltrabajo.com/2022/12/19/despliegue-de-aplicaciones-con-docker-compose/) 
 
