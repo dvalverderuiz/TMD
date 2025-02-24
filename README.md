@@ -156,9 +156,14 @@ En este proyecto vamos a implementar Docker, una plataforma de contenedorizació
 <details>
   <summary>Despliegue de aplicación web 🔽</summary>
 
-Para el despliegue de la aplicación web vamos a utilizar una herramienta de orquestación de los contenedores dentro del mismo cliente, **docker-compose**. Vamos a centrarnos en un archivo en específico, ```docker-compose.yml``` dentro del cuál definiremos los contenedores que se van a desplegar y que dependencias van a tener entre ellos. 
+Para el despliegue de la aplicación web vamos a utilizar una herramienta de orquestación de los contenedores dentro del mismo cliente, **docker-compose**.  
 
-Para descargar **docker-compose** necesitamos tener instalada la herramienta de Docker en sistema que vamos a trabajar.
+Para descargar **docker-compose** necesitamos tener instalada la herramienta de Docker en sistema que vamos a trabajar. Una vez descargadas ambas herramientas comprimimos todos los archivos de nuestra web almacenada en un directorio en windows y los pasamos a la nuestra máquina especificando el nombre del **.zip**, el usuario y la ip de nuestra máquina. 
+
+Una vez que tengamos nuestros archivos en nuestra máquina virtual, los descomprimimos y organizamos la estructura de directorios de la web a nuestro gusto. Una posible opción sería crear una carpeta general con el nombre del proyecto y, dentro de ella, cuatro carpetas para los diferentes servicios, en nuestro caso son: nginx, web, mysql y sql. 
+
+Pasamos a la configuración del archivo más importante de todos, el ```docker-compose.yml``` dentro del cuál definiremos los contenedores que se van a desplegar y que dependencias van a tener entre ellos. 
+Ejemplo de definición del servicio de base de datos:
 
 ```
 
@@ -178,16 +183,19 @@ db:
 
 ```
 
-  - Si los archivos no están comprimidos no nos saldrá bien, así que, comprimimos en un .zip todos los archivos. Con el comando **scp nombre_archivo.zip usuario@ip:.** copiamos todo el contenido a máquina virtual. Luego definimos una estructura de carpetas y subcarpetas de forma jerárquica. Creamos una carpeta general con el nombre de nuestro proyecto, dentro creamos 4 carpetas más (nginx, web, mysql y sql) + un archivo de configuración de docker compose **docker-compose.yml**. Dentro del archivo docker-compose quitamos la línea comentada y cambiamos una linea de configuración de (- ‘./db:/db’) a (- ‘./sql:/db’). Finalmente añadimos el archivo de configuración **default.conf** dentro de la carpeta de nginx. Solo queda distribuir el contenido dentro de cada carpeta a gusto de cada uno.
+Finalmente añadimos el archivo de configuración **default.conf** dentro de la carpeta de nginx.
  
-
 ```
 # comandos usados
 
 sudo apt install docker-compose                        # instalación del servicio
 sudo scp nombre_archivo.zip usuario@ip:.               # comprimir todo en .zip y pasar al sistema de trabajo
-sudo nano /etc/dhcp/dhcpd.conf                         # modificación del archivo de configuración
-sudo nano /etc/default/isc-dhcp-server                 # modificación del archivo de asiganción de interfaz
+sudo unzip nombre_archivo.zip                          # descomprimimos dentro de máquina con docker
+sudo nano docker-compose.yml                           # modificación del archivo de definición de los servicios
+docker-compose up                                      # despliegue de la aplicación
+docker-compose down                                    # detener la ejecución de los contenedores
+docker-compose ps                                      # listar los servicios desplegados y contenedores asociados
+
 ```
   
 **Webgrafía** [Adictosaltrabajo](https://adictosaltrabajo.com/2022/12/19/despliegue-de-aplicaciones-con-docker-compose/) 
