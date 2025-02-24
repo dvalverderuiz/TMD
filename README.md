@@ -161,7 +161,7 @@ Para el despliegue de la aplicación web vamos a utilizar una herramienta de orq
 Para descargar **docker-compose** necesitamos tener instalada la herramienta de Docker en sistema que vamos a trabajar.
 
 
-![image](DC_yml.png)
+
 
   - Si los archivos no están comprimidos no nos saldrá bien, así que, comprimimos en un .zip todos los archivos. Con el comando **scp nombre_archivo.zip usuario@ip:.** copiamos todo el contenido a máquina virtual. Luego definimos una estructura de carpetas y subcarpetas de forma jerárquica. Creamos una carpeta general con el nombre de nuestro proyecto, dentro creamos 4 carpetas más (nginx, web, mysql y sql) + un archivo de configuración de docker compose **docker-compose.yml**. Dentro del archivo docker-compose quitamos la línea comentada y cambiamos una linea de configuración de (- ‘./db:/db’) a (- ‘./sql:/db’). Finalmente añadimos el archivo de configuración **default.conf** dentro de la carpeta de nginx. Solo queda distribuir el contenido dentro de cada carpeta a gusto de cada uno.
  
@@ -179,5 +179,6 @@ sudo nano /etc/default/isc-dhcp-server                 # modificación del archi
 
 </details>
 
+![image](DC_yml.png)
 
 
