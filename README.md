@@ -160,6 +160,19 @@ Para el despliegue de la aplicación web vamos a utilizar una herramienta de orq
 
 Para descargar **docker-compose** necesitamos tener instalada la herramienta de Docker en sistema que vamos a trabajar.
 
+MySQL database service
+db:
+  image: mysql
+  container_name: miDB
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: 1234
+  volumes:
+    - ./mysql:/var/lib/mysql
+    - ./sql:/db
+  networks:
+    - netweb
 
 
 
@@ -179,6 +192,5 @@ sudo nano /etc/default/isc-dhcp-server                 # modificación del archi
 
 </details>
 
-![image](DC_yml.png)
 
 
