@@ -206,7 +206,10 @@ docker-compose ps                                      # listar los servicios de
 <details>
     <summary>Introducción 🔽</summary>
 
+El software pfSense es una distribución personalizada, libre y de código abierto de FreeBSD, diseñada específicamente para usarse como cortafuegos y enrutador, que se administra completamente a través de una interfaz web. Además de ser una plataforma de cortafuegos y enrutamiento potente y flexible, incluye una larga lista de características relacionadas y un sistema de paquetes que permite una mayor capacidad de expansión sin agregarle volumen ni posibles vulnerabilidades de seguridad a la distribución base.
 
+
+**Webgrafía** [pfSense](https://www.pfsense.org/)
 
 </details>
 
