@@ -226,6 +226,7 @@ El sistema de copias de seguridad de nuestro proyecto es desplegado en la máqui
 <details>
   <summary>Pasos para generar backup manualmente 🔽</summary>
 
+
 Fase preparación prévia:
   - En la máquina local el usuario que efectúe el backup de manera manual deberá de tener permisos sobre **[sudo chown {usuario} /]**.
   - 
