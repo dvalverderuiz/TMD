@@ -247,4 +247,12 @@ Salida esperada comprimirá la ruta indicada por el usuario en la ruta local y r
 
 ![BKPexistente](img/bkp_esctructura_existente.png)
 
+Resultados del backup en local:
+
+![BKPlocal](img/resultado_local.png)
+
+Y en remoto:
+
+![BKPlocal](img/resultado_remoto.png)
+
 </details>
