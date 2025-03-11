@@ -256,3 +256,16 @@ Y en remoto:
 ![BKPlocal](img/resultado_remoto.png)
 
 </details>
+
+<details>
+
+<summary>Instrucciones restore sobre la copia de seguridad manual 🔽</summary>
+
+Para realizar un restore de una copia de seguridad hay que utilizar la siguiente sintaxis: 
+  - **restore [parámetro 1] [parámetro 2]**
+  - Donde **parámetro 1** es la fecha del backup que se quiera recuperar en formato (año-mes-día).
+  - Y **parámetro 2** es la ruta a donde se quiera traer la copia.
+
+
+
+</details>
