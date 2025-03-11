@@ -245,6 +245,6 @@ Una vez tengamos nuestra estructura de carpetas necesitamos introducir la sintax
 
 Salida esperada comprimirá la ruta indicada por el usuario en la ruta local y remota:
 
-![BKPexistente](img/bkp_estructura_existente.png)
+![BKPexistente](img/bkp_esctructura_existente.png)
 
 </details>
