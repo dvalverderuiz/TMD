@@ -235,6 +235,10 @@ Fase preparación prévia:
 <details>
   <summary>Instrucciones de copia de seguridad manual 🔽</summary>
 
-  
+Para crear la estructura de carpetas donde se guardará el backup por primera vez escribimos **backup estructura**. Esta sintaxis crea una carpeta en local para almacenar los comprimidos, además hace lo mismo de manera remota en máquina aparte. Así mismo aseguramos que el backup manual no falle y encuentre las carpetas hechas. 
+
+Salida esperada: 
+
+![BKPestructura](img/backup_estructura.png)
 
 </details>
