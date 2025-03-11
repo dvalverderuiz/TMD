@@ -217,7 +217,17 @@ El software pfSense es una distribución personalizada, libre y de código abier
 <details>
   <summary>Introducción 🔽</summary>
 
+En el mundo que vivimos la información se ha convertido en uno de los recursos más importantes la pérdida del cuál puede tener consecuencias muy graves para una empresa. Un backup o una copia de seguridad permite almacenar un respaldo de los datos originales en otro dispositivo o ubicación para recuperarlos en caso de pérdida o corrupción de la versión original. 
 
+El sistema de copias de seguridad de nuestro proyecto es desplegado en la máquina del trabajador, cargando el script en memoria (/usr/local/bin). El script deberá de tener los permisos de ejecución para poder utilizarlo de manera apropiada. Se puede indicar de manera manual el tipo de copia que se desea hacer sea incremental o completa, está ajustado a las necesidades del usuario para que pueda tener una copia lo más reciente posible independientemente de los horarios del backup automantizado. 
 
+</details>
+
+<details>
+  <summary>Pasos para generar backup manualmente 🔽</summary>
+
+Fase preparación prévia:
+  - En la máquina local el usuario que efectúe el backup de manera manual deberá de tener permisos sobre **[sudo chown {usuario} /]**.
+  - 
 
 </details>
