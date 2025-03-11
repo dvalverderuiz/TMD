@@ -266,6 +266,12 @@ Para realizar un restore de una copia de seguridad hay que utilizar la siguiente
   - Donde **parámetro 1** es la fecha del backup que se quiera recuperar en formato (año-mes-día).
   - Y **parámetro 2** es la ruta a donde se quiera traer la copia.
 
+Salida esperada:
 
+![RestoreParametros](img/param_restore.png)
+
+Resultado en ambas máquinas:
+
+![RestoreResultados](img/resultado_restore.png)
 
 </details>
