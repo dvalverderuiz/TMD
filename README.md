@@ -241,4 +241,9 @@ Salida esperada:
 
 ![BKPestructura](img/backup_estructura.png)
 
+Una vez tengamos nuestra estructura de carpetas necesitamos introducir la sintaxis **backup [parametro 1]** para realizar la copia de seguridad. El **parámetro 1** es la ruta al directorio a realizar la copia manual. 
+
+Salida esperada comprimirá la ruta indicada por el usuario en la ruta local y remota:
+
+![BKPhecho](img/bkp_estructura_existente.png)
 </details>
