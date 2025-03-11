@@ -226,9 +226,15 @@ El sistema de copias de seguridad de nuestro proyecto es desplegado en la máqui
 <details>
   <summary>Pasos para generar backup manualmente 🔽</summary>
 
-
 Fase preparación prévia:
-  - En la máquina local el usuario que efectúe el backup de manera manual deberá de tener permisos sobre **[sudo chown {usuario} /]**.
-  - 
+  - En local el usuario que efectúe el backup de manera manual deberá de tener permisos sobre **/ [sudo chown {usuario} /]**.
+  - En remoto hemos creado un usuario **admin_backup** en la máquina servidor de backup que tiene permisos sobre **/ [sudo chown admin_backup /]**. Si no se han pasado las claves pedirá contraseña (password) **[ssh key-gen -t rsa] [ssh-copy-id admin_backup@100.77.20.47]**. 
+
+</details>
+
+<details>
+  <summary>Instrucciones de copia de seguridad manual 🔽</summary>
+
+  
 
 </details>
