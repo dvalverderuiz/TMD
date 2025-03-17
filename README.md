@@ -275,3 +275,13 @@ Resultado en ambas máquinas:
 ![RestoreResultados](img/resultado_restore.png)
 
 </details>
+
+## 🛠️ Otras configuraciones
+<details>
+  <summary> 💬 Ejabberd & Pidgin </summary>
+
+
+
+
+  
+</details>
