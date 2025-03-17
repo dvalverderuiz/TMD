@@ -283,6 +283,7 @@ Este apartado recopila configuraciones y documentación de servicios que no fuer
 <details>
   <summary> 💬 Ejabberd & Pidgin </summary>
 
+[EjabberdPidgin](documentos/Pidgin_y_ejabberd.pdf)
 
 
 
