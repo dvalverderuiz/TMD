@@ -281,6 +281,9 @@ Resultado en ambas máquinas:
 
 Este apartado recopila configuraciones y documentación de servicios que no fueron implementados en nuestro proyecto, pero que resultan relevantes y merecen atención, investigación y el tiempo dedicado a su análisis.  
 
+</details>
+
+<details>
   <summary> 💬 Ejabberd & Pidgin </summary>
 
 
