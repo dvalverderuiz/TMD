@@ -276,7 +276,7 @@ Resultado en ambas máquinas:
 
 </details>
 
-## 🛠️ Otras configuraciones
+## 🛠️ EXTRAS
 
 Este apartado recopila configuraciones y documentación de servicios que no fueron implementados en nuestro proyecto, pero que resultan relevantes y merecen atención, investigación y el tiempo dedicado a su análisis.
 
