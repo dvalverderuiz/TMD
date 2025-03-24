@@ -211,7 +211,7 @@ El software pfSense es una distribución personalizada, libre y de código abier
 </details>
 
 <details>
-  <summary>Documentación 🔽</summary>
+  <summary>Configuración + PortForwarding 🔽</summary>
 
 [pfSense](documentos/pfSense.pdf)
 
