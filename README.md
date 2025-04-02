@@ -219,13 +219,6 @@ El software pfSense es una distribución personalizada, libre y de código abier
 
 </details>
 
-<details>
-  <summary>OpenVpn 🔽</summary>
-
-[OpenVpn](documentos/Openvpn.pdf)
-  
-</details>
-
 ## 🔄💾 Backup
 <details>
   <summary>Introducción 🔽</summary>
@@ -297,9 +290,13 @@ Este apartado recopila configuraciones y documentación de servicios que no fuer
   <summary> 💬 Ejabberd & Pidgin </summary>
 
 [EjabberdPidgin](documentos/Pidgin_y_ejabberd.pdf)
-
-
-
-
   
 </details>
+
+<details> 
+  <summary> OpenVPN </summary>
+
+[OpenVpn](documentos/Openvpn.pdf)
+
+</details>
+
