@@ -294,7 +294,7 @@ Este apartado recopila configuraciones y documentación de servicios que no fuer
 </details>
 
 <details> 
-  <summary> OpenVPN </summary>
+  <summary> :unlock: OpenVPN </summary>
 
 [OpenVpn](documentos/Openvpn.pdf)
 
