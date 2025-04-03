@@ -18,8 +18,6 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 <summary>Funcionalidades 🔽</summary>
 
   - Gestión de redes virtuales y máquinas virtuales con múltiples interfaces conectadas a un entorno físico y simulado.
-  - Uso de CPU y memoria de dispositivos (routers, switches).
-  - Ancho de banda usado por los clientes.
   - Gestión de reglas de firewall.
   - Configuración remota a través de SNMP.
   - PfSense con tres interfaces configuradas: WAN, LAN y una red simulada.
@@ -27,7 +25,12 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
   - Redireccionamiento de tráfico, control de acceso y segmentación de red.
   - Página web alojada en contenedor de Docker.
   - Copia de seguridad.
-  - Red simulada con su propio servidor con servicios de DHCP, Ldap y FTP.  
+  - Red simulada con su propio servidor con servicios de DHCP, Ldap y FTP.
+  - Uso de CPU y memoria de dispositivos (routers, switches).
+  - Ancho de banda usado por los clientes.
+  - Monitoreo de las IPs, sistemas operativos, nombres de host y MAC address.
+  - Clasificación por tipo de dispositivo
+
 </details>
 
 ## 📝  Organización y roles del equipo
