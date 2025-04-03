@@ -16,12 +16,18 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 
 <details>
 <summary>Funcionalidades 🔽</summary>
-  
+
+  - Gestión de redes virtuales y máquinas virtuales con múltiples interfaces conectadas a un entorno físico y simulado.
   - Uso de CPU y memoria de dispositivos (routers, switches).
   - Ancho de banda usado por los clientes.
-  - Dispositivos conectados a través de DHCP.
-  - Configuración básica remota de servidores DHCP y DNS.
-  - Gestión de reglas de firewall mediante scripts automatizados.
+  - Gestión de reglas de firewall.
+  - Configuración remota a través de SNMP.
+  - pfSense con tres interfaces configuradas: WAN, LAN y una red simulada.
+  - DHCP y DNS centralizados a través de pfSense para toda la red principal.
+  - Redireccionamiento de tráfico, control de acceso y segmentación de red.
+  - Página web alojada en contenedor de Docker.
+  - Copia de seguridad.
+  - Red simulada con su propio servidor con servicios de DHCP, Ldap y FTP.  
 </details>
 
 ## 📝  Organización y roles del equipo
