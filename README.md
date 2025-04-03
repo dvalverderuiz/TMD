@@ -22,7 +22,7 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
   - Ancho de banda usado por los clientes.
   - Gestión de reglas de firewall.
   - Configuración remota a través de SNMP.
-  - pfSense con tres interfaces configuradas: WAN, LAN y una red simulada.
+  - PfSense con tres interfaces configuradas: WAN, LAN y una red simulada.
   - DHCP y DNS centralizados a través de pfSense para toda la red principal.
   - Redireccionamiento de tráfico, control de acceso y segmentación de red.
   - Página web alojada en contenedor de Docker.
