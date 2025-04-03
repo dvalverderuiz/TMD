@@ -69,12 +69,6 @@ Esta solución centraliza y optimiza la **monitorización** y **administración 
 </details>
 
 <details>
-  <summary>Framework 🔽</summary>
-  
-  - API de Python con flask
-</details>
-
-<details>
   <summary>Software 🔽</summary>
   
   - Visual Studio
