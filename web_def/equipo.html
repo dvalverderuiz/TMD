@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <title>TMD</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/png" href="images/logo2.png">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .team-members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .team-member {
+            text-align: center;
+            padding: 1rem;
+            background: #f7f7f7;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        .team-member h3 {
+            margin-bottom: 0.5rem;
+        }
+        .team-member p.role {
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+		.team-member:hover {
+            transform: translateY(-10px) rotateY(10deg);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="title">
+            <img src="images/logo.png" alt="TMD Logo" style="height: 50px; margin-left:50px;margin-top:10px;">
+        </a>
+        <nav>
+            <ul style= "margin-right:50px; margin-top:10px;"> 
+                <li><a href="index.html#producto">Nuestro Producto</a></li>
+                <li><a href="index.html#contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main Section - Nuestro equipo -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1 class="major">Nuestro Equipo</h1>
+                <p>Conoce a los miembros apasionados y comprometidos que hacen posible TMD. Cada uno aporta su talento único para impulsar nuestro crecimiento y éxito.</p>
+                
+                <div class="team-members">
+                    <!-- Miembro 1 -->
+                    <div class="team-member">
+                        <img src="images/tim.jpg" alt="Tim Kalugin" />
+                        <h3 style="color: black;">Tim Kalugin</h3>
+                        <p class="role">Co-fundador & Desarrollador Full-Stack</p>
+                        <p style="color: black;">Tim lidera el desarrollo de nuestra plataforma con una visión estratégica y una sólida experiencia técnica. Apasionado por la innovación, coordina el diseño de la arquitectura, la optimización de procesos y la implementación de nuevas funcionalidades. Su compromiso con la calidad asegura que cada proyecto se entregue a tiempo y cumpla los más altos estándares.</p>
+                    </div>
+                    
+                    <!-- Miembro 2 -->
+                    <div class="team-member">
+                        <img src="images/david.jpg" alt="David Valverde" />
+                        <h3 style="color: black;">David Valverde</h3>
+                        <p class="role">Co-fundador & Desarrollador Full-Stack</p>
+                        <p style="color: black;">David se especializa en diseño de interfaces y experiencia de usuario (UX/UI), garantizando que nuestra plataforma no solo funcione bien, sino que también sea atractiva y fácil de usar. Con un enfoque creativo y orientado al detalle, lidera la integración del diseño visual con la tecnología, creando experiencias digitales memorables para nuestros clientes.</p>
+                    </div>
+                    
+                    <!-- Miembro 3 -->
+                    <div class="team-member">
+                        <img src="images/miquel.jpg" alt="Miquel Burguera" />
+                        <h3 style="color: black;">Miquel Burguera</h3>
+                        <p class="role">Co-fundador & Desarrollador Full-Stack</p>
+                        <p style="color: black;">Miquel es nuestro experto en ciberseguridad y operaciones, asegurando que todos los sistemas de TMD estén protegidos frente a amenazas. Además de gestionar la seguridad, supervisa el rendimiento de los servidores y la infraestructura tecnológica. Su pasión por la tecnología y la seguridad refuerza la confianza y fiabilidad que ofrecemos a nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; TMD. Todos los derechos reservados.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
