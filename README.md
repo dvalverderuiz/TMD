@@ -362,17 +362,24 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 
   El diseño y despliegue de la infraestructura sobre Proxmox VE nos ha permitido experimentar de forma práctica con conceptos como la gestión de hipervisores, la configuración de redes virtuales, el despliegue de servicios en contenedores Docker y la administración de sistemas firewall mediante pfSense.
 
-  Hemos conseguido:
-  ✅ Configurar una red segmentada que separa entornos críticos, asegurando mayor seguridad.
-  ✅ Implementar servicios esenciales como DHCP, DNS, NAT y firewall, garantizando conectividad controlada.
-  ✅ Desplegar una aplicación web funcional en contenedores Docker, protegida por proxy reverso y capa adicional con Cloudflare.
-  ✅ Configurar backups periódicos (incluyendo snapshots en Proxmox) para asegurar la resiliencia de datos.
-  ✅ Simular una red secundaria aislada con sus propios servicios (LDAP, FTP, DHCP), demostrando conocimientos avanzados en entornos multi-red.
-  ✅ Documentar cuidadosamente cada componente, versión y configuración utilizada.
+<details>
+<summary>🏆 Hemos conseguido 🔽</summary>
 
+  - ✅ Configurar una red segmentada que separa entornos críticos, asegurando mayor seguridad.
+  - ✅ Implementar servicios esenciales como DHCP, DNS, NAT y firewall, garantizando conectividad controlada.
+  - ✅ Desplegar una aplicación web funcional en contenedores Docker, protegida por proxy reverso y capa adicional con Cloudflare.
+  - ✅ Configurar backups periódicos (incluyendo snapshots en Proxmox) para asegurar la resiliencia de datos.
+  - ✅ Simular una red secundaria aislada con sus propios servicios (LDAP, FTP, DHCP), demostrando conocimientos avanzados en entornos multi-red.
+  - ✅ Documentar cuidadosamente cada componente, versión y configuración utilizada.
 
-  📊 Aprendizajes clave
-  El proyecto ha supuesto un reto significativo, ya que nos enfrentamos a tecnologías que no habíamos trabajado en profundidad previamente. Hemos reforzado habilidades de:
+</details>
+
+<details>
+<summary>📊 Aprendizajes clave  🔽</summary>
+
+  El proyecto ha supuesto un reto significativo, ya que nos enfrentamos a tecnologías que no habíamos trabajado en profundidad previamente.
+
+  Hemos reforzado habilidades de:
 
   - Configuración de redes avanzadas (subredes, NAT, reglas de firewall).
 
@@ -382,16 +389,23 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 
   - Trabajo en equipo, dividiendo tareas de forma eficiente y colaborando en la resolución de problemas.
 
+</details>
 
-  ⚠️ Objetivos no cumplidos o pendientes
+<details>
+<summary>⚠️ Objetivos no cumplidos o pendientes  🔽</summary>
+
   Si bien se lograron cumplir la mayoría de objetivos, hubo algunos aspectos que quedaron parcialmente implementados o en desarrollo:
-  ❌ Integración completa de herramientas de monitorización avanzada como Grafana + Prometheus.
-  ❌ Implementación final de IDS/IPS (aunque se investigó Suricata, no se llegó a integrar del todo).
-  ❌ Optimización de las configuraciones de rendimiento y seguridad a nivel de clúster Proxmox (por tiempo).
-  ❌ Automatización total de despliegues (quedaron scripts sueltos no integrados en un pipeline).
 
+  - ❌ Integración completa de herramientas de monitorización avanzada como Grafana + Prometheus.
+  - ❌ Implementación final de IDS/IPS (aunque se investigó Suricata, no se llegó a integrar del todo).
+  - ❌ Optimización de las configuraciones de rendimiento y seguridad a nivel de clúster Proxmox (por tiempo).
+  - ❌ Automatización total de despliegues (quedaron scripts sueltos no integrados en un pipeline).
 
-  🔭 Proyección futura
+</details>
+
+<details>
+<summary>🔭 Proyección futura 🔽</summary>
+
   Este proyecto nos ha abierto la puerta a nuevas líneas de trabajo que consideramos valiosas para el futuro, como:
 
   - Completar la integración de sistemas de monitorización avanzados.
@@ -403,6 +417,8 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
   - Profundizar en la automatización de despliegues para minimizar intervención manual.
 
   En resumen, hemos superado con éxito muchos de los retos planteados, demostrando capacidad para aprender y aplicar tecnologías nuevas de forma autodidacta, trabajando de manera colaborativa y resolviendo problemas de arquitectura, redes, sistemas y ciberseguridad. Este proyecto nos ha dejado aprendizajes que podremos aplicar tanto en futuros desarrollos académicos como en proyectos reales del entorno profesional.
+
+</details>
 
 ---
 
