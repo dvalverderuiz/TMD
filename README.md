@@ -230,9 +230,29 @@ El núcleo del proyecto (core) está formado por la combinación de la herramien
 
 <details>
 <summary>Explicación 🔽</summary>
+<br>
+Esta herramienta de línea de comandos en Python permite monitorear dispositivos en red a través del protocolo SNMP (Simple Network Management Protocol). Está diseñada para funcionar en sistemas Linux y utiliza snmpget y snmpwalk de la suite net-snmp.
+<br><br>
+🔧 Funcionalidades principales:<br>
+  
+- Detección de dispositivos SNMP: Consulta información básica como nombre, descripción del sistema, ubicación, uptime y contacto del administrador.
+- Exploración de interfaces de red: Muestra el estado, nombre y dirección MAC de cada interfaz encontrada.
+- Presentación amigable: Usa la librería rich para mostrar los datos en tablas con colores y estilos legibles.
+- Soporte para múltiples IPs: Puedes especificar una o varias direcciones IP para escanear simultáneamente.
+<br>
+Modos de operación:
 
+- dispositivos: Muestra solo información del sistema de cada IP.
+- interfaces: Muestra únicamente las interfaces de red.
+- todo: Muestra ambos conjuntos de información.
 
+<br>
+🛠️ Requisitos:
 
+- Python 3.x
+- Paquetes: rich
+- Dependencias del sistema: snmpget, snmpwalk (instalable con sudo apt install snmp)
+<br>
 </details>
 
 <details>
