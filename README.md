@@ -226,6 +226,22 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 
 </details>
 
+## 🌐 APLICACIÓN WEB
+
+<details>
+<summary>Explicación 🔽</summary>
+
+
+
+</details>
+
+<details>
+<summary>Demo 🔽</summary>
+
+
+
+</details>
+
 ## 🔨 ARQUITECTURA
 
 <details>
