@@ -3,7 +3,7 @@
 ## 📄 ABSTRACT
 
 ### Castellano
-Este proyecto integra redes, sistemas operativos, programación y ciberseguridad para construir una infraestructura empresarial simulada y escalable. Sobre Proxmox, hemos desplegado un entorno completo donde pfSense actúa como router, firewall, servidor DHCP y DNS, gestionando dos redes: una genérica con un servidor Docker que aloja una web estática, y una red empresarial simulada con servidores, servicios (Grafana, Prometheus, Suricata) y puestos de trabajo virtualizados. El núcleo del proyecto es una aplicación web desarrollada en Python y SNMP para el monitoreo y análisis de red, que “vendemos” como producto a empresas para mejorar su seguridad y control. A lo largo del proyecto hemos cumplido nuestras expectativas iniciales, logrando una base sólida y funcional; sin embargo, reconocemos que hay aspectos que no hemos podido completar por tiempo, aunque hemos diseñado el sistema pensando en que pueda escalarse fácilmente en el futuro con nuevas funcionalidades y servicios.
+Este proyecto integra redes, sistemas operativos, programación y ciberseguridad para construir una infraestructura empresarial simulada y escalable. Sobre Proxmox, hemos desplegado un entorno completo donde pfSense actúa como router, firewall, servidor DHCP y DNS, gestionando dos redes: una genérica con un servidor Docker que aloja una web estática, y una red empresarial simulada con servidores, servicios (Grafana, Prometheus, Suricata) y puestos de trabajo virtualizados. El núcleo del proyecto es una herramienta de linux desarrollada en Python y SNMP para el monitoreo y análisis de red, que “vendemos” como producto a empresas para mejorar su seguridad y control. A lo largo del proyecto hemos cumplido nuestras expectativas iniciales, logrando una base sólida y funcional; sin embargo, reconocemos que hay aspectos que no hemos podido completar por tiempo, aunque hemos diseñado el sistema pensando en que pueda escalarse fácilmente en el futuro con nuevas funcionalidades y servicios.
 
 ### Català
 Aquest projecte integra xarxes, sistemes operatius, programació i ciberseguretat per construir una infraestructura empresarial simulada i escalable. Sobre Proxmox, hem desplegat un entorn complet on pfSense actua com a router, tallafoc, servidor DHCP i DNS, gestionant dues xarxes: una genèrica amb un servidor Docker que allotja una web estàtica, i una xarxa empresarial simulada amb servidors, serveis (Grafana, Prometheus, Suricata) i llocs de treball virtualitzats. El nucli del projecte és una aplicació web desenvolupada en Python i SNMP per al monitoratge i anàlisi de xarxa, que “venem” com a producte a empreses per millorar la seva seguretat i control. Al llarg del projecte hem complert les expectatives inicials, aconseguint una base sòlida i funcional; no obstant això, reconeixem que hi ha aspectes que no hem pogut completar per temps, encara que hem dissenyat el sistema pensant en què es pugui escalar fàcilment en el futur amb noves funcionalitats i serveis.
@@ -24,7 +24,7 @@ This project integrates networking, operating systems, programming, and cybersec
 <details>
 <summary>Motivación y objetivos generales 🔽</summary>
 
-  La motivación principal surgió del reto de aplicar, de forma práctica y autodidacta, tecnologías que hasta ahora habíamos estudiado solo de forma teórica: virtualización con Proxmox, gestión de redes con pfSense, despliegue de servicios con Docker, y desarrollo de una aplicación web propia para monitorización. Queríamos afrontar el desafío de integrar todos estos elementos en un proyecto funcional, con el objetivo general de demostrar cómo es posible ofrecer a una empresa un producto de monitoreo de red completo y escalable, acompañado de una infraestructura segura y robusta.
+  La motivación principal surgió del reto de aplicar, de forma práctica y autodidacta, tecnologías que hasta ahora habíamos estudiado solo de forma teórica: virtualización con Proxmox, gestión de redes con pfSense, despliegue de servicios con Docker, y desarrollo de una herramienta de linux propia para monitorización. Queríamos afrontar el desafío de integrar todos estos elementos en un proyecto funcional, con el objetivo general de demostrar cómo es posible ofrecer a una empresa un producto de monitoreo de red completo y escalable, acompañado de una infraestructura segura y robusta.
 
   Entre los objetivos generales destacamos:
 
@@ -34,7 +34,7 @@ This project integrates networking, operating systems, programming, and cybersec
 
   - Implementar un servidor Docker que albergue la página web corporativa.
 
-  - Desarrollar una aplicación web de monitoreo de red basada en Python y SNMP.
+  - Desarrollar una herramienta de linux de monitoreo de red basada en Python y SNMP.
 
   - Integrar herramientas como Grafana, Prometheus y Suricata para análisis avanzado.
 
@@ -69,7 +69,7 @@ This project integrates networking, operating systems, programming, and cybersec
 
 ## 🧩 CORE
 
-El núcleo del proyecto (core) está formado por la combinación de la aplicación web propia de monitorización (desarrollada en Python y SNMP) junto con toda la infraestructura de red simulada montada sobre Proxmox, que reproduce el entorno de una empresa real. Este núcleo no es solo la app en sí, sino todo el ecosistema: redes, servidores, firewalls, balanceadores, sistemas de monitorización y seguridad. La idea clave del core es mostrar la capacidad del equipo para integrar múltiples tecnologías en un sistema funcional, seguro y preparado para escalar, cumpliendo tanto los requisitos mínimos como añadiendo extras significativos que enriquecen el proyecto.
+El núcleo del proyecto (core) está formado por la combinación de la herramienta de linux propia de monitorización (desarrollada en Python y SNMP) junto con toda la infraestructura de red simulada montada sobre Proxmox, que reproduce el entorno de una empresa real. Este núcleo no es solo la app en sí, sino todo el ecosistema: redes, servidores, firewalls, balanceadores, sistemas de monitorización y seguridad. La idea clave del core es mostrar la capacidad del equipo para integrar múltiples tecnologías en un sistema funcional, seguro y preparado para escalar, cumpliendo tanto los requisitos mínimos como añadiendo extras significativos que enriquecen el proyecto.
 
 ## 🎯 OBJETIVOS Y FUNCIONALIDADES
 <details>
@@ -79,7 +79,7 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 
   - Integrar pfSense como firewall, DHCP, DNS, router y punto de control de la red.
 
-  - Desarrollar y poner en marcha una aplicación web propia de monitorización de red.
+  - Desarrollar y poner en marcha una herramienta de linux propia de monitorización de red.
 
   - Garantizar la seguridad de los datos mediante cifrado y sistemas de protección.
 
@@ -153,7 +153,7 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 
   - Clasificación de dispositivos por tipo (switches, routers, PCs, servidores, etc.).
 
-  ✅ Aplicación web propia
+  ✅ Herramienta de linux propia
 
   - Página web desarrollada y desplegada en contenedor Docker.
 
@@ -213,7 +213,7 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 <details>
 <summary>Alcance del proyecto 🔽</summary>
 
-  El proyecto se planteó desde el inicio como una solución integral de monitorización y seguridad de red que pudiera venderse a pequeñas y medianas empresas. El objetivo no era solo montar una red funcional, sino simular un entorno real que demostrara la validez de nuestra aplicación web dentro de un ecosistema profesional. Para ello, decidimos montar toda la infraestructura sobre Proxmox, lo que nos permitió trabajar con redes virtualizadas, máquinas separadas, backups automatizados y servicios independientes.
+  El proyecto se planteó desde el inicio como una solución integral de monitorización y seguridad de red que pudiera venderse a pequeñas y medianas empresas. El objetivo no era solo montar una red funcional, sino simular un entorno real que demostrara la validez de nuestra herramienta de linux dentro de un ecosistema profesional. Para ello, decidimos montar toda la infraestructura sobre Proxmox, lo que nos permitió trabajar con redes virtualizadas, máquinas separadas, backups automatizados y servicios independientes.
 
   El alcance incluía:
   ✅ Montar toda la infraestructura simulada en Proxmox.
@@ -226,7 +226,7 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 
 </details>
 
-## 🌐 APLICACIÓN WEB
+## 🌐 HERRAMIENTA DE LINUX
 
 <details>
 <summary>Explicación 🔽</summary>
@@ -259,7 +259,7 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 
   - Servidor de Backup (Ubuntu Server 22.04.2): Encargado de realizar y almacenar backups periódicos, incluyendo volcados de bases de datos y snapshots completos de las VMs.
 
-  - Servidor Docker (Ubuntu Server 22.04.2): Aloja los contenedores de la aplicación web principal y servicios asociados.
+  - Servidor Docker (Ubuntu Server 22.04.2): Aloja los contenedores de la herramienta de linux principal y servicios asociados.
 
   - Cloudflare (servicio externo): Proporciona capa adicional de seguridad web mediante túnel seguro, optimización de tráfico y mitigación de ataques DDoS.
 
@@ -284,7 +284,7 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 
   - Servidor de backup → Responsable de las copias de seguridad y restauración.
 
-  - Servidor Docker → Despliegue de aplicaciones web y servicios internos en contenedores.
+  - Servidor Docker → Despliegue de herramientas de linux y servicios internos en contenedores.
 
   - Cloudflare → Seguridad adicional, protección perimetral y optimización de servicios web.
 
@@ -383,7 +383,7 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 
   - ✅ Configurar una red segmentada que separa entornos críticos, asegurando mayor seguridad.
   - ✅ Implementar servicios esenciales como DHCP, DNS, NAT y firewall, garantizando conectividad controlada.
-  - ✅ Desplegar una aplicación web funcional en contenedores Docker, protegida por proxy reverso y capa adicional con Cloudflare.
+  - ✅ Desplegar una herramienta de linux funcional en contenedores Docker, protegida por proxy reverso y capa adicional con Cloudflare.
   - ✅ Configurar backups periódicos (incluyendo snapshots en Proxmox) para asegurar la resiliencia de datos.
   - ✅ Simular una red secundaria aislada con sus propios servicios (LDAP, FTP, DHCP), demostrando conocimientos avanzados en entornos multi-red.
   - ✅ Documentar cuidadosamente cada componente, versión y configuración utilizada.
@@ -444,7 +444,7 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 <details>
 <summary>Introducción 🔽</summary>
 
-  En este proyecto vamos a implementar Docker, una plataforma de contenedorización que permite crear, desplegar y ejecutar aplicaciones en contenedores. Distingue por su portabilidad y consistencia, esto significa que nos permite trabajar desde cualquier sitio desplegando la misma imagen en otro servidor, nube, etc. Además nos proporciona un aislamiento de los servicios, en caso de tener algún fallo en un contenedor, el servicio afectado será únicamente el que se almacenaba dentro de este contenedor. Por último, los contenedores docker comparten el mismo kernel del sistema operativo, lo que permite reducir el consumo de RAM, CPU y memória física, optimizando el tiempo del arranque, desarrollo y apague de los servicios.
+  En este proyecto vamos a implementar Docker, una plataforma de contenedorización que permite crear, desplegar y ejecutar herramientas de linux en contenedores. Distingue por su portabilidad y consistencia, esto significa que nos permite trabajar desde cualquier sitio desplegando la misma imagen en otro servidor, nube, etc. Además nos proporciona un aislamiento de los servicios, en caso de tener algún fallo en un contenedor, el servicio afectado será únicamente el que se almacenaba dentro de este contenedor. Por último, los contenedores docker comparten el mismo kernel del sistema operativo, lo que permite reducir el consumo de RAM, CPU y memória física, optimizando el tiempo del arranque, desarrollo y apague de los servicios.
 
 </details>
 
@@ -481,9 +481,9 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 </details>
 
 <details>
-<summary>Despliegue de aplicación web 🔽</summary>
+<summary>Despliegue de herramienta de linux 🔽</summary>
 
-  Para el despliegue de la aplicación web vamos a utilizar una herramienta de orquestación de los contenedores dentro del mismo cliente, **docker-compose**.  
+  Para el despliegue de la herramienta de linux vamos a utilizar una herramienta de orquestación de los contenedores dentro del mismo cliente, **docker-compose**.  
 
   Para descargar **docker-compose** necesitamos tener instalada la herramienta de Docker en sistema que vamos a trabajar. Una vez descargadas ambas herramientas comprimimos todos los archivos de nuestra web almacenada en un directorio en windows y los pasamos a la nuestra máquina especificando el nombre del **.zip**, el usuario y la ip de nuestra máquina. 
 
@@ -614,14 +614,14 @@ El núcleo del proyecto (core) está formado por la combinación de la aplicaci�
 Este apartado recopila configuraciones y documentación de servicios que no fueron implementados en nuestro proyecto, pero que resultan relevantes y merecen atención, investigación y el tiempo dedicado a su análisis.
 
 <details>
-  <summary> 💬 Ejabberd & Pidgin </summary>
+  <summary> 💬 Ejabberd & Pidgin 🔽</summary>
 
 [EjabberdPidgin](documentos/Pidgin_y_ejabberd.pdf)
   
 </details>
 
 <details> 
-  <summary> :unlock: OpenVPN </summary>
+  <summary> :unlock: OpenVPN 🔽</summary>
 
 [OpenVpn](documentos/Openvpn.pdf)
 
