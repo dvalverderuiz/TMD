@@ -81,13 +81,13 @@ El núcleo del proyecto (core) está formado por la combinación de la herramien
 
   - Desarrollar y poner en marcha una herramienta de linux propia de monitorización de red.
 
-  - Garantizar la seguridad de los datos mediante cifrado y sistemas de protección.
-
   - Documentar todo el proyecto, incluyendo diagramas, mapas físicos y lógicos, configuraciones y - anexos.
 
   - Incorporar prácticas de backup regulares para garantizar la recuperación ante fallos.
 
   - Cumplir todos los requisitos mínimos y, en la medida de lo posible, alcanzar requisitos extra.
+
+  - (No cumplido) Garantizar la seguridad de los datos mediante cifrado y sistemas de protección.
 
   - (No cumplido) Desplegar un entorno de alta disponibilidad o clustering.
 
