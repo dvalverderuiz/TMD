@@ -216,11 +216,11 @@ El núcleo del proyecto (core) está formado por la combinación de la herramien
   El proyecto se planteó desde el inicio como una solución integral de monitorización y seguridad de red que pudiera venderse a pequeñas y medianas empresas. El objetivo no era solo montar una red funcional, sino simular un entorno real que demostrara la validez de nuestra herramienta de linux dentro de un ecosistema profesional. Para ello, decidimos montar toda la infraestructura sobre Proxmox, lo que nos permitió trabajar con redes virtualizadas, máquinas separadas, backups automatizados y servicios independientes.
 
   El alcance incluía:
-  ✅ Montar toda la infraestructura simulada en Proxmox.
-  ✅ Desplegar servicios esenciales como DNS, DHCP, firewall, servidores web, monitorización.
-  ✅ Desarrollar y presentar una aplicación propia que recoja y muestre datos de red.
-  ✅ Incorporar prácticas de seguridad y de backup.
-  ✅ Documentar exhaustivamente el proyecto, incluyendo diagramas, roles de usuario, tecnologías y configuraciones.
+  - ✅ Montar toda la infraestructura simulada en Proxmox.
+  - ✅ Desplegar servicios esenciales como DNS, DHCP, firewall, servidores web, monitorización.
+  - ✅ Desarrollar y presentar una aplicación propia que recoja y muestre datos de red.
+  - ✅ Incorporar prácticas de seguridad y de backup.
+  - ✅ Documentar exhaustivamente el proyecto, incluyendo diagramas, roles de usuario, tecnologías y configuraciones.
 
   Sin embargo, por limitaciones de tiempo y recursos, no se llegó a cubrir la implementación de algunas funcionalidades avanzadas como el clustering en Proxmox, la integración de sistemas externos como Firebase o el despliegue de alertas inteligentes. Aun así, el proyecto fue diseñado pensando en la escalabilidad: es decir, todo el núcleo está preparado para crecer y añadir nuevas funcionalidades en el futuro sin necesidad de rediseñar la arquitectura principal. Esto asegura que el trabajo hecho no solo cumple con los objetivos actuales, sino que sienta una base sólida para ampliaciones posteriores.
 
