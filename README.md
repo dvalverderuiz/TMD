@@ -24,7 +24,7 @@ This project integrates networking, operating systems, programming, and cybersec
 <details>
 <summary>Motivación y objetivos generales 🔽</summary>
 
-  La motivación principal surgió del reto de aplicar, de forma práctica y autodidacta, tecnologías que hasta ahora habíamos estudiado solo de forma teórica: virtualización con Proxmox, gestión de redes con pfSense, despliegue de servicios con Docker, y desarrollo de una herramienta de linux propia para monitorización. Queríamos afrontar el desafío de integrar todos estos elementos en un proyecto funcional, con el objetivo general de demostrar cómo es posible ofrecer a una empresa un producto de monitoreo de red completo y escalable, acompañado de una infraestructura segura y robusta.
+  La motivación principal surgió del reto de aplicar, de forma práctica y autodidacta, tecnologías que habíamos estudiado  de forma teórico-práctica: virtualización con Proxmox, gestión de redes con pfSense, despliegue de servicios con Docker, y desarrollo de una herramienta de linux propia para monitorización. Queríamos afrontar el desafío de integrar todos estos elementos en un proyecto funcional, con el objetivo general de demostrar cómo es posible ofrecer a una empresa un producto de monitoreo de red completo y escalable, acompañado de una infraestructura segura y robusta.
 
   Entre los objetivos generales destacamos:
 
