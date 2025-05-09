@@ -291,7 +291,7 @@ Modos de operación:
 <details>
 <summary>Diagrama de red 🔽</summary>
 
-  ![Esquemaredmain](img/DiagramaRed.png)
+  ![DiagramaRed](img/DiagramaRed.png)
 
 </details>
 
